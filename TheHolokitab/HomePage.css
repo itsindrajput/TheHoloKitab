@@ -1,0 +1,338 @@
+*{
+	padding:0px;
+	margin:0px;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 500px) {
+  * {
+    overflow-x: hidden;
+  }
+}
+  
+  #img{
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+  }
+  @media only screen and (min-device-width: 700px){
+    #img{
+      width: 100%;
+      height: 621px;
+    }
+  }
+  .me{
+    color: rgb(104, 97, 97);
+    font-family: 'Lobster', cursive;
+    font-family: 'Righteous', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+  }
+  .right{
+    float: right;
+    width: 30%;
+    margin-bottom: 1%;
+  }
+  .left{
+    width: 30%;
+    margin-bottom: 1%;
+  }
+
+  .paragraph{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    line-height: 1.2;
+    text-align: center;
+  }
+  @media only screen and (max-width: 600px){
+    .paragraph{
+      text-align: justify;
+      font-size: 1.3rem;
+    }
+  }
+  .hhh{
+    font-size: 1.7rem;
+  }
+  @media only screen and (max-width: 600px){
+    .hhh{
+      font-size: 1.2rem;
+    }
+  }
+  .txt{
+    color: red;
+    font-weight: bolder;
+    font-size: 2.1rem;
+    font-family: cursive;
+  }
+  @media only screen and (max-width: 600px){
+    .txt{
+      font-size: 1.5rem;
+    }
+  }
+    .fna{
+      margin-top: 2rem;
+      text-align: center;
+    }
+    @media only screen and (max-width: 600px){
+      .container{
+        margin-top: 1rem;
+      }
+    }
+  /* style for first group of card*/
+  
+  .first-div .tp{
+    padding: 1.3rem 1.1rem 0rem 4.1rem;
+  }
+  
+  
+  @media only screen and (min-device-width: 600px){
+  .first-div .tp{
+    padding-left: 7rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
+    padding-top: 2.2rem;
+    
+    }
+  }
+    
+  .first-div .card .card-img-top {
+    height:255px;
+    width:285px;
+  }
+  
+  
+  /* Style for second group of card */
+  
+  .second-div .tp1{
+    padding: 0.5rem 1.1rem 0.5rem 4.1rem;
+  }
+
+  @media only screen and (min-device-width: 600px){
+  .second-div .tp1{
+  padding:7rem;
+  padding-bottom: 0.5rem;
+  padding-top: 3rem;
+  }
+  }
+  
+  .second-div .card .card-img-top {
+    height:255px;
+    width:285px;
+  }
+  
+
+/*Css for Features*/
+.row1{
+	padding: 1rem;
+  padding-bottom: 0rem;
+	padding-top: 0rem;
+	margin: 0 auto;
+}
+#row{
+  margin-left: 0rem;
+}
+@media screen and (max-width:680px) {
+	#row{
+		margin-left: 0rem;
+    margin-right: 0.3rem;
+	}
+}
+.column{
+	width: 27%;
+	height: 230px;
+  margin: 0rem 2rem 0rem 2rem;
+  
+}
+@media screen and (max-width:680px) {
+	.column{
+		width: 100%;
+		height: 230px;
+	}
+}
+
+figure img{
+	width: 100%;
+	height: 190px;
+	border: 2px solid rgb(185,185,185);
+  border-radius: 1.5rem;
+}
+
+#hovercard{
+	--outline-hover:.1rem solid var(--black);
+	--black:#454344;
+  }
+#hovercard:hover{
+	outline: var(--outline-hover);
+  transform: scale(1.1);
+  transform-origin: 45% 45%;
+  transition: transform 2s, filter 3s ease-in-out;
+  overflow: hidden;
+  }
+
+.Featuresheading{
+  color: red; 
+  text-align: center; 
+  font-family: cursive; 
+  font-weight: bolder; 
+  margin: 2rem 0rem 1.5rem 0rem;
+}
+@media only screen and (max-width: 500px) {
+  .Featuresheading{
+    margin: 0rem 0rem 1rem 0rem;
+  }
+}
+
+/*Css For Youtube Videos Begins Here*/
+.videos{
+  margin-left: 8rem;
+  margin-bottom: 3rem;
+}
+@media only screen and (max-width: 700px) {
+  .videos{
+    margin: 0rem 1.5rem 1.5rem 1.5rem;
+}
+}
+.videosheading{
+  color: red; 
+  text-align: center; 
+  font-family: cursive; 
+  font-weight: bolder; 
+  margin: 0.5rem 0rem 1.5rem 0rem;
+}
+@media only screen and (max-width: 500px) {
+  .videosheading{
+    margin: 0rem 0rem 1.2rem 0rem;
+  }
+}
+
+
+
+/*css for footer*/
+.footer{
+  background-color: white;
+  }
+  @media only screen and (max-width: 500px) {
+    .footer{
+      margin-top: 0rem;
+    }
+  }
+  #container1{
+    padding-left: 7rem;
+  }
+  @media only screen and (max-width: 500px) {
+    #container1{
+      padding-left: 0.3rem;
+    }
+  }
+
+  .footer-col{
+     width: 23%;
+     padding: 0 20px;
+  }
+  
+  .footer-col h4{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: rgb(184, 35, 35);
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  } 
+  
+  .footer-col ul li:not(:last-child){
+      margin-bottom: 2px;
+  }
+  
+  .footer-col ul li a{
+      font-size: 1.1rem;
+      color: black;
+      text-decoration: none;
+      font-weight: lighter;
+      display: block;
+      transition: all 0.3s ease;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .footer-col ul li a:hover{
+    color: rgb(146, 143, 143);
+  }
+  
+  .footer-col .social-links i{
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	color: black;
+	transition: all 0.5s ease;
+	font-size: 1.5rem;
+}
+ 
+  .footer-col .social-links i:hover{
+      color: rgb(146, 143, 143);
+      font-weight: bold;
+  }
+  
+  @media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom:12px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
+
+  
+  
+  
+/* Css for navbar*/
+#holo{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.0rem;
+    padding-left: 0.1rem;
+    color: red;
+    margin-right: 2rem;
+  }
+#holo:hover{
+  color: rgb(18, 185, 18);
+}
+  
+#holoki{
+  font-size: 30px;
+  color: red;
+  margin-left: 13rem;
+}
+@media only screen and (max-width: 500px) {
+  #holoki{
+    margin-left: 0rem;
+  }
+}
+#holoki:hover{
+  color: rgb(18, 185, 18);
+}
+#home{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  color: black;
+  font-size: 1.0rem;
+  margin: 0 auto;
+  padding-left: 2rem;
+}
+#home:hover{
+  color: rgb(146, 143, 143);
+}
+
+.btn-danger{
+  margin-left: 4rem;
+}
+@media only screen and (max-width: 500px) {
+  .btn-danger{
+    margin-left: 5rem;
+  }
+}
+#button{
+  color: white;
+}
+

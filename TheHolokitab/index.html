@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>The HoloKitab | Home Page |</title> 
+<!-- Favicons -->
+<link href="images/favicon.ico" rel="icon">
+<link href="images/favicon.ico" rel="apple-touch-icon"> 
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!--Html css-->
+<link rel="stylesheet" type="text/css" href="HomePage.css">
+
+<!--Bootstrap css-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+<script type = "text/javascript">
+  function displayNextImage() {
+      x = (x === images.length - 1) ? 0 : x + 1;
+      document.getElementById("img").src = images[x];
+  }
+
+  function displayPreviousImage() {
+      x = (x <= 0) ? images.length - 1 : x - 1;
+      document.getElementById("img").src = images[x];
+  }
+
+  function startTimer() {
+      setInterval(displayNextImage, 10000);
+  }
+
+  var images = [], x = -1;
+  images[0] = "images/img1.jpg";
+  images[1] = "images/img2.png";
+  images[2] = "images/img3.jpg";
+</script>
+
+</head>
+<body>
+
+
+<!--Naviagation Bar-->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbarstyle"  style="background-color: white;">
+  
+<a class="navbar-brand" id="actives" href="HomePage.html"><i class="fa fa-home" id="holoki"><b id="holo">Holokitab</b></i></a>
+  
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+  
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+  
+  <div id="actives">
+  <a class="navbar-brand" href="Catalogue.html"><b id="home"> Catalogue</b></a>
+  <a class="navbar-brand" href="About.html"><b id="home"> About Us</b></a>
+  <a class="navbar-brand" href="Contact.html"><b id="home"> Contact Us</b></a>
+  <a class="navbar-brand" href="Blogs.html"><b id="home"> Blogs</b></a>
+</div>
+<a href="https://www.amazon.in/s?me=A2M2K7PHYN71LD&ref=sf_seller_app_share_new"><button class="btn btn-danger btn-outline-success my-3 my-sm-2" id="actives" type="button"
+><b id="button"> Order Now</b></button></a>
+</div>
+</nav>
+
+<body onload = "startTimer()">
+  <img id="img" src="images/img1.jpg"/>
+
+<div class="container fna">
+  <h3 class="hhh">Learning is Fun with <b class="txt">Holokitab </b></h3>
+  <p class="paragraph">Bring learning content alive for your small ones. See the magic of Augmented Reality in Learning. 
+  Help you children develop cognitive ability with Holokitab Augmented Reality Books.</p>
+</div>
+       
+<!--First row cards-->
+<div class="first-div row">   
+    
+<div class="tp col-10 col-sm-6 col-md-4">
+<div class="card" style="width: 18rem;">
+<img class="card-img-top" src="images/cart1.jfif" alt="Card image cap">
+<div class="card-body">
+<p class="card-text">HoloKitab Technologies is an early stage startup using Augmented Reality to improve learning experiences. </p>
+</div>
+</div>
+</div>
+
+<div class="tp col-10 col-sm-6 col-md-4">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="images/cart2.jpg" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text">We publish a wide range of curriculum based Augmented Reality books, which includes live 3D animations.</p>
+    </div>
+  </div>
+</div>
+
+<div class="tp col-10 col-sm-6 col-md-4">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="images/cart3.jpg" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text">Right now, we publish books for children aged 2-6 years old.
+        And books can be our best friends for life, for all the right reasons.
+      </p>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<!--second div-->
+
+<div class="second-div row">
+
+<div class="tp1 col-10 col-sm-6 col-md-4">
+<div class="card" style="width: 18rem;">
+<img class="card-img-top" src="images/cart4.jpg" alt="Card image cap">
+<div class="card-body">
+<p class="card-text">Partnership is an arrangement where parties, agree to cooperate to advance their mutual interests. The partners in a partnership may be individuals, businesses, schools, governments or combinations.  
+</p>
+</div>
+</div>
+</div>
+
+<div class="tp1 col-10 col-sm-6 col-md-4">
+<div class="card" style="width: 18rem;">
+<img class="card-img-top" src="images/cart5.jpg" alt="Card image cap">
+<div class="card-body">
+<p class="card-text">When child is studying, he/she tries to create an imaginary figure in the head based on what is being read. That's called visualization and it helps to retain the information for a long time.</p>
+</div>
+</div>
+</div>
+
+<div class="tp1 col-10 col-sm-6 col-md-4">
+<div class="card" style="width: 18rem;">
+<img class="card-img-top" src="images/cart6.jpeg" alt="Card image cap">
+<div class="card-body">
+  <p class="card-text">A partnership is an arrangement where parties, agree to cooperate to advance their mutual interests. The partners in a partnership may be individuals, businesses, schools, governments or combinations.  
+  </p>
+</div>
+</div>
+</div>
+
+</div>
+    
+
+
+
+<!--Features Starts Here-->
+<div class="container">
+  <h2 class="Featuresheading">Our Features</h2>
+  <div class="row row1" id="row">
+  <figure class="column">
+  <img id="hovercard" src="images/features1.png" />
+  </figure>
+
+  <figure class="column" >
+  <img id="hovercard" src="images/features2.png" />
+  </figure>
+
+  <figure class="column">
+  <img id="hovercard" src="images/features3.png" />
+  </figure>
+  </div>
+  
+  <div class="row row1" id="row">
+  
+  <figure class="column">
+  <img id="hovercard" src="images/features4.png" />
+  </figure>
+  
+  <figure class="column">
+  <img id="hovercard" src="images/features5.png" />
+  </figure>
+  
+  <figure class="column">
+  <img id="hovercard" src="images/features6.png" />
+  </figure>
+  </div>
+
+</div>
+<!--Features Ends Here-->
+
+
+<!--Videos element starts here-->
+<h2 class="videosheading">Video Gallery</h2>
+<div class="videos">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zyhfD9ZNemE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PfcSNUJVJwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Tck4AQ-g8bo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kNNQ8UQO4qA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<!--Videos element ends here-->
+
+
+
+<!--Footer start here-->
+
+<footer class="footer">
+<div class="container" id="container1">
+<div class="row">
+<div class="footer-col">
+<h4>Holokitab</h4>
+<ul class="list-unstyled">
+  <li><a href="#" id="address">Home</a></li>
+  <li><a href="https://www.holokitab.in/catalogue.html" id="address">Pricing</a></li>
+  <li><a href="https://www.holokitab.in/pages/policy.html" id="address">Privacy Policy</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Get Help</h4>
+<ul class="list-unstyled">
+  <li><a href="#" id="address">Returns</a></li>
+  <li><a href="#" id="address">Order Status</a></li>
+  <li><a href="#" id="address">Payment Options</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4 >Address</h4>
+<ul class="list-unstyled">
+<li><a href="#" id="address">I.E.T Khandari<br>AgraUP-282002
+</a></li>
+<li><a href="tel:8699646484"><i class="fa fa-phone" aria-hidden="true" style="font-size: 1.2rem;"> Click To Call </i></li>
+
+</ul>
+</div>
+<div class="footer-col">
+<h4>Follow Us</h4>
+<div class="social-links">
+<a href="https://www.instagram.com/holokitab/"><i class="fab fa-instagram"></i></a>
+<a href="https://wa.me/8699646484"><i class="fab fa-whatsapp"></i></a>
+<a href="mailto:info@holokitab.in"><i class="fa fa-envelope"></i></a>
+<a href="https://m.facebook.com/Holokitab3DTextbook/"><i class="fab fa-facebook"></i></a>
+</div>
+</div>
+</div>
+
+
+</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
